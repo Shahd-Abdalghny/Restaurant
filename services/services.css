@@ -54,7 +54,9 @@ html {
     top: 0;
     z-index: 3;
   }
-  
+    .dropdown-menu {
+      position: absolute !important;
+    }
   .navbar.scrolled {
     background-color: rgba(17, 17, 17, 0.829) !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -302,6 +304,11 @@ i {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .new-footer h5::after {
+    background-color: var(--grey);
+  }
 }
 
 /*End Footer*/

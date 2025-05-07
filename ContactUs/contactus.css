@@ -82,7 +82,9 @@ body {
   color: var(--white) !important;
   position: relative;
 }
-
+.dropdown-menu {
+  position: absolute !important;
+}
 .navbar-nav .nav-link {
   color: var(--white) !important;
   font-size: 18px;
@@ -618,6 +620,11 @@ body {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .new-footer h5::after {
+    background-color: var(--grey);
+  }
 }
 
 /*End Footer*/

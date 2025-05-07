@@ -70,6 +70,9 @@ body {
 .navbar-brand span{
   color: #c7ae38;
 }
+.dropdown-menu {
+  position: absolute !important;
+}
 
 .nav-item {
   margin-left: 15px;
@@ -347,6 +350,11 @@ body {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .new-footer h5::after {
+    background-color: var(--grey);
+  }
 }
 
 /*End Footer*/

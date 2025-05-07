@@ -118,7 +118,9 @@ html {
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
-  
+    .dropdown-menu {
+      position: absolute !important;
+    }
   .nav-item:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -338,6 +340,11 @@ input[type="submit"]:hover {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .new-footer h5::after {
+    background-color: var(--grey);
+  }
 }
 
 /*End Footer*/

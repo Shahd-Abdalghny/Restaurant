@@ -67,7 +67,9 @@ html {
     font-style: italic;
     color: var(--white) !important;
   }
-  
+    .dropdown-menu {
+      position: absolute !important;
+    }
   .navbar-brand span{
     color: #c7ae38;
   }
@@ -392,6 +394,11 @@ html {
   text-align: center;
   font-size: 14px;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .new-footer h5::after {
+    background-color: var(--grey);
+  }
 }
 
 /*End Footer*/
