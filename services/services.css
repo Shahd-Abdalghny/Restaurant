@@ -256,15 +256,7 @@ i {
   background-color: #1c1c1c;
 }
 
-.new-footer h5::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 50px;
-  height: 2px;
-  background-color: var(--yellow);
-}
+
 
 .footer-content p {
   margin-bottom: 12px;
@@ -305,10 +297,6 @@ i {
   font-size: 14px;
   color: #aaa;
 }
-@media (max-width: 768px) {
-  .new-footer h5::after {
-    background-color: var(--grey);
-  }
-}
+
 
 /*End Footer*/
